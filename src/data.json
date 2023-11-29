@@ -1,0 +1,193 @@
+[
+    
+
+    {
+      "userId": 2,
+      "username": "jane_smith",
+      "password": "$2b$12$3fJyHTgM8QgU.q.tlpNVyOf.hJYfhVe7XPGCHm9Wq1RmexUZbUEeu",
+      "fullName": {
+          "firstName": "Jane",
+          "lastName": "Smith"
+      },
+      "age": 25,
+      "email": "jane.smith@example.com",
+      "isActive": true,
+      "hobbies": [
+          "photography",
+          "gardening"
+      ],
+      "address": {
+          "street": "456 Oak Ave",
+          "city": "Smalltown",
+          "country": "USA"
+      } 
+    },
+    {
+      "userId": 3,
+      "username": "alice_davis",
+      "password": "$2b$12$3fJyHTgM8QgU.q.tlpNVyOf.hJYfhVe7XPGCHm9Wq1RmexUZbUEeu",
+      "fullName": {
+          "firstName": "Alice",
+          "lastName": "Davis"
+      },
+      "age": 28,
+      "email": "alice.davis@example.com",
+      "isActive": true,
+      "hobbies": [
+          "painting",
+          "swimming"
+      ],
+      "address": {
+          "street": "789 Pine St",
+          "city": "Largetown",
+          "country": "USA"
+      } 
+    },
+    {
+      "userId": 4,
+      "username": "mark_johnson",
+      "password": "$2b$12$3fJyHTgM8QgU.q.tlpNVyOf.hJYfhVe7XPGCHm9Wq1RmexUZbUEeu",
+      "fullName": {
+          "firstName": "Mark",
+          "lastName": "Johnson"
+      },
+      "age": 35,
+      "email": "mark.johnson@example.com",
+      "isActive": true,
+      "hobbies": [
+          "cooking",
+          "hiking"
+      ],
+      "address": {
+          "street": "789 Elm St",
+          "city": "Hometown",
+          "country": "USA"
+      } 
+    },
+    {
+      "userId": 5,
+      "username": "sarah_brown",
+      "password": "$2b$12$3fJyHTgM8QgU.q.tlpNVyOf.hJYfhVe7XPGCHm9Wq1RmexUZbUEeu",
+      "fullName": {
+          "firstName": "Sarah",
+          "lastName": "Brown"
+      },
+      "age": 42,
+      "email": "sarah.brown@example.com",
+      "isActive": true,
+      "hobbies": [
+          "painting"
+      ],
+      "address": {
+          "street": "987 Oak St",
+          "city": "Cityville",
+          "country": "USA"
+      } 
+    },
+    {
+      "userId": 6,
+      "username": "new_user",
+      "password": "$2b$12$3fJyHTgM8QgU.q.tlpNVyOf.hJYfhVe7XPGCHm9Wq1RmexUZbUEeu",
+      "fullName": {
+          "firstName": "New",
+          "lastName": "User"
+      },
+      "age": 20,
+      "email": "new.user@example.com",
+      "isActive": true,
+      "hobbies": [
+          "reading",
+          "writing"
+      ],
+      "address": {
+          "street": "789 Elm St",
+          "city": "Newtown",
+          "country": "USA"
+      } 
+    },
+    {
+      "userId": 7,
+      "username": "james_smith",
+      "password": "$2b$12$3fJyHTgM8QgU.q.tlpNVyOf.hJYfhVe7XPGCHm9Wq1RmexUZbUEeu",
+      "fullName": {
+          "firstName": "James",
+          "lastName": "Smith"
+      },
+      "age": 32,
+      "email": "james.smith@example.com",
+      "isActive": true,
+      "hobbies": [
+          "photography",
+          "cooking"
+      ],
+      "address": {
+          "street": "456 Oak Ave",
+          "city": "Bigtown",
+          "country": "USA"
+      } 
+    },
+    {
+      "userId": 8,
+      "username": "emily_davis",
+      "password": "$2b$12$3fJyHTgM8QgU.q.tlpNVyOf.hJYfhVe7XPGCHm9Wq1RmexUZbUEeu",
+      "fullName": {
+          "firstName": "Emily",
+          "lastName": "Davis"
+      },
+      "age": 28,
+      "email": "emily.davis@example.com",
+      "isActive": true,
+      "hobbies": [
+          "painting",
+          "swimming",
+          "cooking"
+      ],
+      "address": {
+          "street": "789 Pine St",
+          "city": "Largetown",
+          "country": "USA"
+      } 
+    },
+    {
+      "userId": 9,
+      "username": "michael_johnson",
+      "password": "$2b$12$3fJyHTgM8QgU.q.tlpNVyOf.hJYfhVe7XPGCHm9Wq1RmexUZbUEeu",
+      "fullName": {
+          "firstName": "Michael",
+          "lastName": "Johnson"
+      },
+      "age": 35,
+      "email": "michael.johnson@example.com",
+      "isActive": true,
+      "hobbies": [
+          "cooking",
+          "hiking"
+      ],
+      "address": {
+          "street": "789 Elm St",
+          "city": "Hometown",
+          "country": "USA"
+      } 
+    },
+    {
+      "userId": 10,
+      "username": "linda_brown",
+      "password": "$2b$12$3fJyHTgM8QgU.q.tlpNVyOf.hJYfhVe7XPGCHm9Wq1RmexUZbUEeu",
+      "fullName": {
+          "firstName": "Linda",
+          "lastName": "Brown"
+      },
+      "age": 42,
+      "email": "linda.brown@example.com",
+      "isActive": true,
+      "hobbies": [
+          "yoga",
+          "painting"
+      ],
+      "address": {
+          "street": "987 Oak St",
+          "city": "Cityville",
+          "country": "USA"
+      } 
+    }
+    ]
