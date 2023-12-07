@@ -8,7 +8,8 @@ import catchAsync from '../../utils/catchAsync';
 // import studentValidationSchema from './student.validation';
 
 const getAllStudents = catchAsync(async (req, res) => {
-  const result = await StudentServices.getAllStudents();
+ 
+  const result = await StudentServices.getAllStudents(req.query);
   sendResponse(res, {
     success: true,
     statusCode: httpStatus.OK,
@@ -20,6 +21,7 @@ const getAllStudents = catchAsync(async (req, res) => {
 const getSingleStudent = catchAsync(async (req, res) => {
   const { studentId } = req.params;
   const result = await StudentServices.getSingleFromDb(studentId);
+
   sendResponse(res, {
     success: true,
     statusCode: httpStatus.OK,

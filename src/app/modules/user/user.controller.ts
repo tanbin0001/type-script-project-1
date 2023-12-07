@@ -1,10 +1,11 @@
 import httpStatus from 'http-status';
 
 import { RequestHandler } from 'express';
-import { UserService } from './user.service';
+ 
 import sendResponse from '../../utils/sendResponse';
 import catchAsync from '../../utils/catchAsync';
-
+import { UserService } from './user.service';
+ 
 
 
 const createStudent: RequestHandler = catchAsync(async (req, res) => {
@@ -16,13 +17,6 @@ const createStudent: RequestHandler = catchAsync(async (req, res) => {
   // const zodParsedData = studentValidationSchema.parse(studentData);
 
   const result = await UserService.createStudentIntoDB(password, studentData);
-
-  //send res
-  // res.status(200).json({
-  //   success: true,
-  //   message: 'Student is created successfully',
-  //   data: result,
-  // });
   sendResponse(res, {
     success: true,
     statusCode: httpStatus.OK,
@@ -31,7 +25,20 @@ const createStudent: RequestHandler = catchAsync(async (req, res) => {
   });
 
 })
+const createFaculty = catchAsync(async (req, res) => {
+  const { password, faculty: facultyData } = req.body;
+
+  const result = await UserService.createFacultyIntoDB(password, facultyData);
+
+  sendResponse(res, {
+    statusCode: httpStatus.OK,
+    success: true,
+    message: 'Faculty is created succesfully',
+    data: result,
+  });
+});
 
 export const UserControllers = {
   createStudent,
+  createFaculty
 };
