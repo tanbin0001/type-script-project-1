@@ -3,12 +3,6 @@ import { AcademicFaculty } from "./academicFaculty.model";
 
  
 const createAcademicFacultyInDB =  async (payLoad: TAcademicFaculty) => {
-
-
-
-   
- 
-
 const result = await AcademicFaculty.create(payLoad);
 return result;
 }

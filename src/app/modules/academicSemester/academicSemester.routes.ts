@@ -11,7 +11,9 @@ const router = express.Router();
 
 // router.get('/:studentId', StudentControllers.getSingleStudent);
 
-router.post('/create-academic-semester',validateRequest(AcademicSemesterValidation.createAcademicSemesterValidationSchema), AcademicSemesterControllers.createAcademicSemester)
+router.post('/create-academic-semester',
+// validateRequest(AcademicSemesterValidation.createAcademicSemesterValidationSchema),
+ AcademicSemesterControllers.createAcademicSemester)
 router.get('/', AcademicSemesterControllers.getAllAcademicSemesters)
 router.get('/:id', AcademicSemesterControllers.getSingleAcademicSemester)
 router.get('/:id', AcademicSemesterControllers.getSingleAcademicSemester)
