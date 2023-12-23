@@ -8,9 +8,9 @@ import mongoose from 'mongoose';
 
 let server : Server ;
 
-async function main() {
+ function main() {
   try {
-    await mongoose.connect(config.database_url as string);
+     mongoose.connect(config.database_url as string);
    server =  app.listen(config.port, () => {
       console.log(` app listening on  ${config.port}`);
     });

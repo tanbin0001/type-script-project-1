@@ -83,7 +83,11 @@ const studentQuery = new QueryBuilder(Student.find()
 ,query).search(studentSearchAbleFields).filter().sort().paginate().fields();
 
 const result = await studentQuery.modelQuery ;
-return result;
+const meta = await studentQuery.countTotal();
+return {
+  result,
+  meta
+};
 };
 
 const getSingleFromDb = async (id: string) => {

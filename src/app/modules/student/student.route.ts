@@ -3,12 +3,13 @@ import { StudentControllers } from './student.controller';
 import { validateRequest } from '../../middlewares/validateRequest';
 
 import { studentValidations } from './student.validation';
+import auth from '../../middlewares/auth';
 
 const router = express.Router();
 
 // this will call controller function
 
-router.get('/', StudentControllers.getAllStudents);
+router.get('/', auth('admin', 'student', 'faculty'),StudentControllers.getAllStudents);
 
 router.get('/:studentId', StudentControllers.getSingleStudent);
 // router.patch('/:studentId', StudentControllers.updateStudent);
